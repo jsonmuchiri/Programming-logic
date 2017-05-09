@@ -11,12 +11,12 @@ class TestPrimeGenerator(unittest.TestCase):
     def test_zero_not_prime(self):
         """Testing if zero is correctly determined not to be prime."""
 
-        self.assertEqual(prime_number(0), "Zero or One cannot be prime numbers.")
+        self.assertEqual(prime_number(0), "Zero is not a prime number.")
 
     def test_one_not_prime(self):
         """"Testing if one is correctly determined not to be prime."""
 
-        self.assertEqual(prime_number(1), "Zero or One cannot be prime numbers.")
+        self.assertEqual(prime_number(1), "One is not a prime number.")
 
     def test_two(self):
         """Testing if error returned if integer entered is 2."""
