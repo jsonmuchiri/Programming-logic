@@ -1,6 +1,6 @@
 def prime_number(number):
     """
-    # A prime number is a number divisible by one or itself
+    # Prime number: a is a number divisible by one or itself
     # Function to generate prime numbers within given range.
     """
 
