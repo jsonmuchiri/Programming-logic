@@ -21,7 +21,7 @@ def prime_number(number):
     return prime_nos
 	
 """
-# Call the function using an example of 20 to test whether is working
+# Call the function using an example of (20) to test whether is working
 # Output:[2, 3, 5, 7, 11, 13, 17, 19]
 """
 prime = prime_number('20')
